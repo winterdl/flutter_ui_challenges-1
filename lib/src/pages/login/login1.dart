@@ -1,7 +1,12 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 
 class LoginOnePage extends StatelessWidget {
-
+  static final String path = "lib/src/pages/login/login1.dart";
   Widget _buildPageContent() {
     return Container(
       padding: EdgeInsets.all(20.0),

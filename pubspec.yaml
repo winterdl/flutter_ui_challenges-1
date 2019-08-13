@@ -7,10 +7,10 @@ description: Trying to replicate various app UIs in flutter
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
-version: 1.0.0+1
+version: 2.0.0
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -23,6 +23,17 @@ dependencies:
   flutter_custom_clippers: ^0.1.1
   intro_views_flutter:
   wave:
+  font_awesome_flutter: ^8.4.0
+  url_launcher: ^5.0.2
+  shared_preferences: ^0.5.3
+  bottomreveal: ^1.0.0
+  animated_floatactionbuttons: ^0.1.0
+  share: ^0.6.2
+  flare_flutter:
+    git:
+      url: git://github.com/2d-inc/Flare-Flutter.git
+      ref: 6606b73bf4f7b87105a6febfbb5f2167cf8b8977
+      path: flare_flutter
   
 dev_dependencies:
   flutter_test:
@@ -33,6 +44,7 @@ flutter_icons:
   android: true 
   ios: true
   image_path: "assets/icon/icon.png"
+  image_path_ios: "assets/icon/app-store-logo.jpg"
   
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -54,6 +66,25 @@ flutter:
     - assets/hotel/
     - assets/food/
     - assets/icon/
+    - assets/flare/
+    - lib/src/pages/animations/
+    - lib/src/pages/animations/animation1/
+    - lib/src/pages/blog/
+    - lib/src/pages/dialogs/
+    - lib/src/pages/ecommerce/
+    - lib/src/pages/food/
+    - lib/src/pages/grocery/
+    - lib/src/pages/hotel/
+    - lib/src/pages/login/
+    - lib/src/pages/lists/
+    - lib/src/pages/misc/
+    - lib/src/pages/navigation/
+    - lib/src/pages/onboarding/
+    - lib/src/pages/profile/
+    - lib/src/pages/quiz_app/
+    - lib/src/pages/todo/
+    - lib/src/pages/travel/
+
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 

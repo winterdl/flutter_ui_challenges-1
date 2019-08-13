@@ -1,3 +1,8 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/tabs/gcarttab.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/tabs/ghometab.dart';
@@ -5,6 +10,7 @@ import 'package:flutter_ui_challenges/src/pages/grocery/tabs/gprofiletab.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/tabs/gwishlisttab.dart';
 
 class GroceryHomePage extends StatefulWidget {
+  static final String path = "lib/src/pages/grocery/ghome.dart";
 
   @override
   GroceryHomePageState createState() {

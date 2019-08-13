@@ -1,6 +1,12 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 
 class ArticleOnePage extends StatelessWidget {
+  static final String path = "lib/src/pages/blog/article1.dart";
   @override
   Widget build(BuildContext context){
     String image = "assets/img/2.jpg";

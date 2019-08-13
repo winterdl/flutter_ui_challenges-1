@@ -1,6 +1,14 @@
+import 'dart:io';
+
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 
 class DestinationPage extends StatelessWidget {
+  static final String path = "lib/src/pages/travel/tdestination.dart";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +33,7 @@ class DestinationPage extends StatelessWidget {
                       children: <Widget>[
                         Row(
                           children: <Widget>[
-                            IconButton(icon: Icon(Icons.arrow_back), onPressed: (){
+                            IconButton(icon: Icon(Platform.isIOS ? Icons.arrow_back_ios :  Icons.arrow_back), onPressed: (){
                               Navigator.pop(context);},),
                             Text("Kathmandu", style: TextStyle(
                               fontSize: 20.0,

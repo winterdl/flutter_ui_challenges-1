@@ -1,8 +1,14 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/gwidgets/glistitem2.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/gwidgets/gtypography.dart';
 
 class GroceryDetailsPage extends StatelessWidget {
+  static final String path = "lib/src/pages/grocery/gdetails.dart";
   @override
     Widget build(BuildContext context) {
       return Scaffold(

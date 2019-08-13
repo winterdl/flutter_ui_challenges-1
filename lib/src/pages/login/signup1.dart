@@ -1,8 +1,13 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 
 class SignupOnePage extends StatelessWidget {
-
+  static final String path = "lib/src/pages/login/signup1.dart";
   Widget _buildPageContent(BuildContext context) {
     return Container(
       color: Colors.blue.shade100,

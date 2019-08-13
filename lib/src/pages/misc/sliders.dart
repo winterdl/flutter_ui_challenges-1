@@ -1,7 +1,13 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
 class SlidersPage extends StatelessWidget {
+  static final String path = "lib/src/pages/misc/sliders.dart";
   final List<String> images= [
     'assets/img/1.jpg',
     'assets/food/breakfast.jpg',

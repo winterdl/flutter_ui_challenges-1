@@ -1,7 +1,13 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
 class FoodDeliveryHomePage extends StatelessWidget {
+  static final String path = "lib/src/pages/food/fdhome.dart";
   final List<String> sliderItems = [
     "assets/food/breakfast.jpg",
     "assets/food/burger1.jpg",

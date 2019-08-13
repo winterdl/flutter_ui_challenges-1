@@ -1,6 +1,14 @@
+import 'dart:io';
+
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 
 class RecipeDetailsPage extends StatelessWidget {
+  static final String path = "lib/src/pages/food/recipe_details.dart";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,7 +17,7 @@ class RecipeDetailsPage extends StatelessWidget {
         elevation: 0.0,
         backgroundColor: Colors.white,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.black,),
+          icon: Icon(Platform.isIOS ? Icons.arrow_back_ios : Icons.arrow_back, color: Colors.black,),
           onPressed: ()=>Navigator.of(context).pop(),
         ),
         actions: <Widget>[

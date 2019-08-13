@@ -1,7 +1,13 @@
+/**
+ * Author: Damodar Lohani
+ * profile: https://github.com/lohanidamodar
+  */
+  
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
 class TravelNepalPage extends StatelessWidget {
+  static final String path = "lib/src/pages/travel/travel_nepal.dart";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
